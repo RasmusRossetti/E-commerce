@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Men</title>
+        <link rel="stylesheet" href="dist/styles.css" />
+        
+      
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+      <!-- NAVBAR -->
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand font-extrabold" href="./menstab.html">E-commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- RESPONSIVE -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./womenstab.html">Women<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menstab.html">Men</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./about.html">About</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input id="search-bar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+<!-- Shopping Cart Button -->
+<div class="ml-4 mt-1 flex flex-row-reverse space-x-3 space-x-reverse">
+  <a href="#" class="inline-flex overflow-hidden text-white bg-gray-900 rounded group">
+      <span class="px-3.5 py-2 text-white bg-purple-500 group-hover:bg-purple-600 flex items-center justify-center">
+        <p class="itemCounter pt-3"></p>
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+</span>
+  </a>
+</div>
+
+        </div>
+      </nav>
+    </div>
+
+    
+    <!-- NAVBAR -->
+
+
+    <!-- PRODUCTS  -->
+<div  class="container">
+  <div class="products-list">
+    <div class="products mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <!-- render porducts here -->
+    </div>
+    
+</div>
+
+<!-- CART -->
+
+<div class="main-section flex-1 m-20 border-4 p-20 bg-white">
+  <h1 class="font-bold text-gray-700 text-5xl mb-6">Shopping Cart</h1>
+  <div class="font-bold text-gray-500 table-titles flex">
+      <h2 class="flex-grow">Product</h2>
+      <h2 class="w-48">Count</h2>
+      <h2 class="w-48">Total Cost</h2>
+      <span class="w-10"></span>
+  </div>
+  <div class="cart-items mt-5">
+      
+  </div>
+  <div class="complete-order flex justify-end mt-10">
+      <div class="total-cost mr-7">
+          <h4 class="text-gray-400">Total Cost</h4>
+          <div class=" text-gray-600 font-bold total-cost-number text-3xl">
+              <div class="subtotal"></div>
+          </div>
+      </div>
+    
+  </div>
+</div>
+
+
+
+<script src="./dist/womensproducts.js"></script>
+<script src="./dist/womenstab.js"></script>
+</div>
+<div id="print-cart">
+  
+</div>
+    <!-- PRODUCTS -->
+    <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
+      <div
+        class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300"
+      ></div>
+      <div class="mx-6 py-10 text-center md:text-left">
+        <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="">
+            <h6
+              class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start"
+            >
+              <i class="fas fa-cubes pr-4 lg:pl-24"></i>
+              E-Commerce
+            </h6>
+            <p>
+              Europe's largest selection of fashion & trends Pick and choose
+              from over 2000 brands and click home your favorites.
+            </p>
+          </div>
+          <div class="">
+            <h6
+              class="uppercase font-semibold mb-4 flex justify-center md:justify-start lg:pl-32"
+            >
+              Products
+            </h6>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">Men</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">Women</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">Kids</a>
+            </p>
+          </div>
+          <div class="">
+            <h6
+              class="uppercase font-semibold mb-4 flex justify-center md:justify-start lg:pl-28"
+            >
+              Useful links
+            </h6>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">Pricing</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-gray-600">Help</a>
+            </p>
+          </div>
+          <div class="">
+            <h6
+              class="uppercase font-semibold mb-4 flex justify-center md:justify-start lg:pl-14"
+            >
+              Contact
+            </h6>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <i class="fas fa-home pr-4"></i>
+              Stockholm Torsgatan 10
+            </p>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <i class="fas fa-envelope pr-4"></i>
+              info@e-commerce.com
+            </p>
+            <p class="flex items-center justify-center md:justify-start mb-4">
+              <i class="fas fa-phone pr-4"></i>
+              + 01 234 567 88
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-6 bg-gray-200">
+        <div class="flex justify-center mb-6">
+          <a href="#!" class="mr-6 text-gray-600">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#!" class="mr-6 text-gray-600">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a href="#!" class="mr-6 text-gray-600">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#!" class="mr-6 text-gray-600">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <span>© 2022 Copyright:</span>
+        <a
+          class="text-gray-600 font-semibold"
+          href="https://tailwind-elements.com/"
+          >E-Commerce</a
+        >
+      </div>
+
+      
+    </footer>
+
+    </body>
+    
+    
+    <script src="./dist/womenstab.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

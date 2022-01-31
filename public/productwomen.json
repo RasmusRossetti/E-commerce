@@ -1,0 +1,21 @@
+{
+    "products":[
+        {"id":"1", "name":"Dress", "color":"Red", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/1b8b91d1c2654f2ab0fa41ba10f09ff8/5801ab87a37b45b494ebaa3850103ca3.jpg?imwidth=1800"},
+        {"id":"2","name":"Hoodie", "color":"Purple", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/a83273710e9b45539e9af256343b192c/e2085dd4f4a24e8d88da9c2b76bddc6c.jpg?imwidth=400"},
+        {"id":"3","name":"Jeans", "color":"Black", "price":"$20","img":"https://img01.ztat.net/article/spp-media-p1/fffea3e942644f55ae73720d8e8f72cf/40f5fb48d8be446aa3cd07d09f08c06d.jpg?imwidth=400"},
+        {"id":"4","name":"Coat", "color":"Camel", "price":"$50","img":"https://img01.ztat.net/article/spp-media-p1/95fd6c2b000e4d24beea63d54dcf437d/7a1610a849b144959aae0ebe644983f9.jpg?imwidth=400"},
+        {"id":"5","name":"Shirt", "color":"white/Camel", "price":"$50","img":"https://img01.ztat.net/article/spp-media-p1/8c975471297643fbb3ba6115948b9998/9bd47499488d40f99bb06dca671aab20.jpg?imwidth=400"},
+        {"id":"6","name":"Shirt", "color":"White", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/2a673d2640994955aba224c712f423f8/d019885d144749d792a5e6de26243eef.jpg?imwidth=400"},
+        {"id":"7","name":"Dress", "color":"Lightgreen", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/59adb093e50f49adaa794efe62cccfa7/9ff5f009cd254174b2170fef3f2a7ce5.jpg?imwidth=400"}
+        ,
+        {"id":"8","name":"Overall / Jumpsuit", "color":"Beige", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/5668f003ba394078a145de8b1e4fe5d0/282e66a075164d9aa26fc6096c926496.jpg?imwidth=1800"}
+        ,
+        {"id":"9","name":"Overall/Jumpsuit", "color":"Black", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/80ef4eb1577749a28b0291a5eb8e4159/9eca500f26994b1fa0d82f7bc00d8466.jpg?imwidth=1800"}
+        ,
+        {"id":"10","name":"JerseyDress", "color":"Khaki/Green", "price":"$60","img":"https://img01.ztat.net/article/spp-media-p1/a7b0fa1a280449719c975290e9f641ac/3d2d47ca79714c668ad0281d81f43f38.jpg?imwidth=1800"}
+        ,
+        {"id":"11","name":"Blazer", "color":"Black/Striped", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/af05314870584d5a99d09b52b4a5401a/ff5d62f3942045a49cc7e01c0068c67c.jpg?imwidth=1800"}
+        ,
+        {"id":"12","name":"Sweatshirt", "color":"Black/White", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/cccef8cc23194f068f9b921617f52e7e/9bbfc6424db14fb0b9cd0907c85a31dd.jpg?imwidth=1800"}
+    ]
+    }

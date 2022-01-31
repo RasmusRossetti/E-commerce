@@ -1,0 +1,23 @@
+ {
+    "products":[
+        {"id":"1", "name":"Shirt", "color":"Beige", "price":"$35","img":"https://img01.ztat.net/article/spp-media-p1/8bd009e4668a4183985cdaa1b2c6d914/7f77143ceec2423f922b156251a46bf5.jpg?imwidth=400"},
+        {"id":"2","name":"Sweatshirt", "color":"Camel", "price":"$30","img":"https://img01.ztat.net/article/spp-media-p1/d08983e45f1a473bace86c6d6d36326d/dd99a56cb0ba44ad97362261f160fb58.jpg?imwidth=400"},
+        {"id":"3","name":"Pants", "color":"Brown/Beige", "price":"$20","img":"https://img01.ztat.net/article/spp-media-p1/2440de0a8e4545eeadd4d7b967e6b3ca/c4854ae12a8e4d7285c49145f5d9e4c4.jpg?imwidth=1800"},
+        {"id":"4","name":"Shirt", "color":"Black", "price":"$50","img":"https://www.adaysmarch.com/pub_images/original/clean-cut-tencel-8771.jpg?timestamp=1626948626"},
+        {"id":"5","name":"Shirt", "color":"Woods", "price":"$50","img":"https://www.adaysmarch.com/pub_images/original/newbridge-checked-flannel-shirt-faded-orange-9444.jpg?timestamp=1631024815"},
+        {"id":"6","name":"Shoe", "color":"Black", "price":"$30","img":"https://www.adaysmarch.com/pub_images/original/101916-20_100.jpg?timestamp=1642155850"},
+        {"id":"7","name":"Hoodie", "color":"Green", "price":"$30","img":"https://www.adaysmarch.com/pub_images/original/101815-50_1.jpg?timestamp=1634135163"}
+        ,
+        {"id":"8","name":"Sweatshirt", "color":"Black", "price":"$40","img":"https://img01.ztat.net/article/spp-media-p1/d3e9569b11dd4fcebaf32e50dc724487/1a72eda34455438582ebb816b69b6970.jpg?imwidth=762"}
+        ,
+        {"id":"9","name":"Jeans", "color":"Blue", "price":"$60","img":"https://img01.ztat.net/article/spp-media-p1/2e4ecde0628342b8b8ff831ad1d83562/1d875d24bbcf45488f8d5241ac1fbf02.jpg?imwidth=1800"}
+        ,
+        {"id":"10","name":"Jacket", "color":"red", "price":"$80","img":"https://img01.ztat.net/article/spp-media-p1/34ea14303ee84591b63de401a2fce3ec/032b15c23e2b4279bb0bdcb20888e763.jpg?imwidth=1800"}
+        ,
+        {"id":"11","name":"Sweatshirt", "color":"Yellow", "price":"$40","img":"https://img01.ztat.net/article/spp-media-p1/c7338b0cecb349a1bf5cea33e1d3693d/e93e41287fcf443a9be3e9904bdba574.jpg?imwidth=762"}
+        ,
+        {"id":"12","name":"Hoodie", "color":"Tie-die", "price":"$25","img":"https://img01.ztat.net/article/spp-media-p1/74f338f764bc4902b57824c252580714/2fa3547294634fb7bfef9214c7cd207f.jpg?imwidth=1800&filter=packshot"}
+    ]
+    
+    }
+    
