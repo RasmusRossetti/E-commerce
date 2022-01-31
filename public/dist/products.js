@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     color: 'Black',
-    name: "T-shirt 2",
+    name: "Hoodie",
     price: 24.99,
     instock: 43,
     description:
@@ -21,7 +21,8 @@ const products = [
   },
   {
     id: 2,
-    name: "T-shirt 3",
+    name: "Pants",
+    color: 'White',
     price: 19.99,
     instock: 10,
     description:
@@ -31,6 +32,7 @@ const products = [
   {
     id: 3,
     name: "T-shirt 4",
+    color: 'White',
     price: 25.99,
     instock: 5,
     description:
@@ -40,6 +42,7 @@ const products = [
   {
     id: 4,
     name: "T-shirt 5",
+    color: 'White',
     price: 29.99,
     instock: 4,
     description:
@@ -49,6 +52,7 @@ const products = [
   {
     id: 5,
     name: "T-shirt 6",
+    color: 'White',
     price: 39.99,
     instock: 40,
     description:
@@ -58,6 +62,7 @@ const products = [
   {
     id: 6,
     name: "T-shirt 6",
+    color: 'Purple',
     price: 39.99,
     instock: 40,
     description:
@@ -67,6 +72,7 @@ const products = [
   {
     id: 7,
     name: "T-shirt 6",
+    color: 'Beige',
     price: 39.99,
     instock: 40,
     description:

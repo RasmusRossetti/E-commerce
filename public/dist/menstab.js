@@ -5,31 +5,28 @@ const subtotalEl = document.querySelector(".subtotal");
 const searchBar = document.getElementById("search-bar");
 
 const totalItemsInCartEl = document.querySelector(".total-items-in-cart");
-productsJson = [];
-console.log(productsJson)
+
 
 
 searchBar.addEventListener("keyup", (e) => {
   const searchString = e.target.value.toLowerCase();
  
   const filteredCharacters = products.filter((products) => {
-    
       return (
-          products.name.toLowerCase().includes(searchString) ||
+          products.name.toLowerCase().includes(searchString)|| 
           products.color.toLowerCase().includes(searchString)
       );
   });
-  console.log(filteredCharacters)
+  
   renderProdcuts(filteredCharacters);
 });
 
 
-productsJson.push(products)
-console.log(productsJson)
 
 // RENDER PRODUCTS
-function renderProdcuts() {
-  products.forEach((products) => {
+function renderProdcuts(filteredCharacters) {
+  productsEl.innerHTML = '';
+  filteredCharacters.forEach((products) => {
     productsEl.innerHTML += `
     <div >
     <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
@@ -41,6 +38,7 @@ function renderProdcuts() {
          
         </h3>
         <p class="mt-1 text-sm text-gray-500">${products.name}</p>
+        <p class="mt-1 text-sm text-gray-500">${products.color}</p>
       </div>
       <p class="text-sm font-medium text-gray-900">${products.price}</p>
 
@@ -61,7 +59,7 @@ function renderProdcuts() {
         `;
   });
 }
-renderProdcuts();
+renderProdcuts(products);
 
 // cart array
 let cart = JSON.parse(localStorage.getItem("CART")) || [];
