@@ -4,6 +4,8 @@ const cartItemsEl = document.querySelector(".cart-items");
 const subtotalEl = document.querySelector(".subtotal");
 const totalItemsInCartEl = document.querySelector(".total-items-in-cart");
 
+
+
 // RENDER PRODUCTS
 function renderProdcuts() {
   products.forEach((products) => {
@@ -79,7 +81,7 @@ function renderSubtotal() {
     totalPrice += item.price * item.numberOfUnits;
     totalItems += item.numberOfUnits;
   });
-
+  
   subtotalEl.innerHTML = ` (${totalItems} items): $${totalPrice.toFixed(2)}`;
   totalItemsInCartEl.innerHTML = totalItems;
 }
@@ -89,8 +91,7 @@ function renderCartItems() {
   cartItemsEl.innerHTML = ""; // clear cart element
   
   cart.forEach((item) => {
-    let counterCartNumber = document.querySelector('.itemCounter')
-    counterCartNumber.innerHTML = `${item.numberOfUnits}`;
+    
     cartItemsEl.innerHTML += `
     <div class="cart-item flex items-center pb-5 border-b border-gray-100">
           

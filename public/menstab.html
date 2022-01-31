@@ -50,9 +50,9 @@
           </form>
 <!-- Shopping Cart Button -->
 <div class="ml-4 mt-1 flex flex-row-reverse space-x-3 space-x-reverse">
-  <a href="#" class="inline-flex overflow-hidden text-white bg-gray-900 rounded group">
+  <a href="./cart.html" class="inline-flex overflow-hidden text-white bg-gray-900 rounded group">
       <span class="px-3.5 py-2 text-white bg-purple-500 group-hover:bg-purple-600 flex items-center justify-center">
-        <p class="itemCount pt-3"></p>
+        <p class="total-items-in-cart pt-3"></p>
 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
 </span>
   </a>
@@ -65,8 +65,7 @@
     
     <!-- NAVBAR -->
 
-
-    <!-- PRODUCTS  -->
+<!-- PRODUCTS  -->
 <div  class="container">
   <div class="products-list">
     <div class="products mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -74,8 +73,7 @@
     </div>
     
 </div>
-
-<!-- CART -->
+    <!-- CART -->
 
 <div class="main-section flex-1 m-20 border-4 p-20 bg-white">
   <h1 class="font-bold text-gray-700 text-5xl mb-6">Shopping Cart</h1>
@@ -95,18 +93,19 @@
               <div class="subtotal"></div>
           </div>
       </div>
-      
+    
   </div>
 </div>
 
 
 
-<script src="./dist/products.js"></script>
-<script src="./dist/app.js"></script>
+
 </div>
 <div id="print-cart">
   
 </div>
+
+
     <!-- PRODUCTS -->
     <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
       <div
@@ -207,7 +206,8 @@
     </footer>
 
     </body>
-    
+    <link rel="stylesheet" href="./products.json">
+    <script src="./products.json"></script>
     <script src="./dist/products.js"></script>
     <script src="./dist/menstab.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>

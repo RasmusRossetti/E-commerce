@@ -1,6 +1,7 @@
 const products = [
   {
     id: 0,
+    color: 'White',
     name: "T-shirt 1",
     price: 29.99,
     instock: 100,
@@ -10,6 +11,7 @@ const products = [
   },
   {
     id: 1,
+    color: 'Black',
     name: "T-shirt 2",
     price: 24.99,
     instock: 43,
