@@ -1,3 +1,4 @@
+//CODE MADE BY RASMUS ROSSETTI
 const products = [
     {
       id: 0,
@@ -80,3 +81,4 @@ const products = [
       imgSrc: "https://img01.ztat.net/article/spp-media-p1/5668f003ba394078a145de8b1e4fe5d0/282e66a075164d9aa26fc6096c926496.jpg?imwidth=1800",
     }
   ];
+  //CODE MADE BY RASMUS ROSSETTI

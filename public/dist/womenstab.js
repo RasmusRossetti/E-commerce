@@ -1,3 +1,5 @@
+//CODE MADE BY RASMUS ROSSETTI
+
 // SELECT ELEMENTS
 const productsEl = document.querySelector(".products");
 const cartItemsEl = document.querySelector(".cart-items");
@@ -22,7 +24,7 @@ searchBar.addEventListener("keyup", (e) => {
 });
 
 
-
+//CODE MADE BY RASMUS ROSSETTI
 // RENDER PRODUCTS
 function renderProdcuts(filteredCharacters) {
   productsEl.innerHTML = '';
@@ -178,3 +180,4 @@ function changeNumberOfUnits(action, id) {
 
   updateCart();
 }
+//CODE MADE BY RASMUS ROSSETTI
